@@ -27,15 +27,16 @@ Cada módulo é desenvolvido como uma unidade independente que:
 
 ### Frontend
 
-*   React com TypeScript
-*   Gerenciamento de Estado: \[A definir]
-*   UI Framework: \[A definir]
+*   React 18 + Next.js 14.x (TypeScript)
+*   Gerenciamento de Estado: Context API / Hooks
+*   UI Framework: Custom (CSS Modules / Tailwind) - *A definir*
 
 ### Backend
 
-*   Node.js com TypeScript
+*   Node.js + NestJS 10.x (TypeScript)
 *   Clean Architecture
 *   REST APIs
+*   Banco de Dados: SQL Server (Infraestrutura Local / On-Premise)
 
 ## Comunicação entre Módulos
 

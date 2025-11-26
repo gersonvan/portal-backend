@@ -18,13 +18,10 @@ O que foi entregue e está pronto para usar
 - ✅ **docs/PROXIMOS_PASSOS.md** - Bloqueadores e cronograma (Dez)
 - ✅ **docs/INDICE_DOCUMENTACAO.md** - Guia de leitura
 
-### 2. Guides para Confluence
+### 2. Guides para Confluence (Legacy)
 
-- ✅ **GUIA_REORGANIZAR_CONFLUENCE.md** - Passo a passo
-- ✅ **TEMPLATES_NAVEGACAO_CONFLUENCE.md** - Modelos de navegação
-- ✅ **QUICK_START_MENUS.md** - 5 minutos
-- ✅ **VISUAL_CLIQUE_POR_CLIQUE.md** - Instruções visuais
-- ✅ **COMECE_AQUI_MENUS.md** - Guia inicial
+- ✅ **CONFLUENCE_MENUS_GUIDE.md** - Guia consolidado (arquivado em `docs/legacy/menus/`)
+- ✅ **Outros guias** - Arquivados em `docs/legacy/menus/`
 
 ### 3. Páginas Confluence Criadas
 
@@ -40,7 +37,7 @@ O que foi entregue e está pronto para usar
 ### Para Stakeholders
 - README.md (15 min)
 - BACKLOG.md (10 min)
-- PROXIMOS_PASSOS.md (10 min)
+- PROXIMOS_PASSOS.md (Legacy) (10 min)
 
 **Tempo total:** ~35 minutos para entender projeto completo
 

@@ -2,8 +2,8 @@
 
 **Visão:** Gestão centralizada de todas as tarefas do projeto Portal Administrativo
 
-**Última atualização:** November 12, 2025  
-**Status:** Em Planejamento
+**Última atualização:** November 26, 2025  
+**Status:** Fase 0 - Setup Iniciado
 
 ---
 
@@ -15,19 +15,19 @@ Este backlog organiza todas as tarefas do Portal Administrativo em prioridades, 
 
 ## 📊 Epics (Alto Nível)
 
-### Epic 1: Componentes Compartilhados (FASE 0)
+### Epic 1: Componentes Compartilhados (FASE 0 - DEZ 2025)
 - Seletor de Empresa (Frontend)
 - Multi-Tenant Middleware (Backend)
 - Sistema de Temas (Frontend)
 - Isolamento de Dados (Backend)
 
-### Epic 2: Infra & Setup (FASE 0)
+### Epic 2: Infra & Setup (FASE 0 - DEZ 2025)
 - Database schema com empresa_id
 - Docker & ambiente dev
-- CI/CD pipeline
+- CI/CD pipeline (Homologação)
 - Documentação técnica
 
-### Epic 3: Diploma Digital - Unigrande (FASE 1)
+### Epic 3: Diploma Digital - Unigrande (FASE 1 - Q1 2026)
 - Backend: Validação
 - Backend: Geração XML
 - Backend: Assinatura Digital
@@ -60,9 +60,9 @@ Este backlog organiza todas as tarefas do Portal Administrativo em prioridades, 
 
 ### 🔴 CRÍTICA (P0) - Bloqueia tudo
 
-#### Fase 0: Setup
-- [ ] Validar decisões arquiteturais com PO (Dez 15)
-- [ ] Completar mapeamento de funcionalidades (Dez 22)
+#### Fase 0: Setup (Dezembro 2025)
+- [x] Validar decisões arquiteturais com PO (Dez 15)
+- [ ] Consolidar ideação UX e Telas (Dez 22)
 - [ ] Aprovar estrutura Jira (Dez 20)
 - [ ] Setup database schema com empresa_id
 - [ ] Criar middleware de tenant (Backend)
@@ -71,7 +71,7 @@ Este backlog organiza todas as tarefas do Portal Administrativo em prioridades, 
 
 ---
 
-### 🟠 ALTA (P1) - Crítico para FASE 1
+### 🟠 ALTA (P1) - Crítico para FASE 1 (Jan 2026)
 
 #### Diploma Digital - Unigrande
 - [ ] Backend: Validar diploma (estrutura, campos obrigatórios)

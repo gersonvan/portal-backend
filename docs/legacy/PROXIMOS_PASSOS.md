@@ -17,10 +17,10 @@ Cronograma e responsabilidades para os próximos 30 dias
 **Responsável:** PO + Stakeholders  
 **Duração:** 2-3h  
 **Entregáveis para apresentar:**
-- BACKLOG.md (épicos e sprints)
-- MULTI_TENANT_ARCHITECTURE.md (decisões técnicas)
-- ESTRUTURA_JIRA.md (proposta de organização)
-- MAPEAMENTO_EMPRESAS.md (8 módulos identificados)
+- [Backlog](docs/BACKLOG.md) (épicos e sprints)
+- [Arquitetura Multi-Tenant](docs/MULTI_TENANT_ARCHITECTURE.md) (decisões técnicas)
+- [Estrutura Jira](docs/ESTRUTURA_JIRA.md) (proposta de organização)
+- [Mapeamento de Empresas](docs/MAPEAMENTO_EMPRESAS.md) (8 módulos identificados)
 
 **Saída esperada:** Aprovação de direção técnica
 
@@ -37,9 +37,9 @@ Cronograma e responsabilidades para os próximos 30 dias
 **Responsável:** Tech Leads (Frontend + Backend)  
 **Duração:** 2-3h  
 **Referências técnicas:**
-- MULTI_TENANT_ARCHITECTURE.md (seções 5-6)
-- FAQ.md (Architecture e Backend)
-- GLOSSARIO.md (termos técnicos)
+- [Arquitetura Multi-Tenant](docs/MULTI_TENANT_ARCHITECTURE.md) (seções 5-6)
+- [FAQ](docs/FAQ.md) (Architecture e Backend)
+- [Glossário](docs/GLOSSARIO.md) (termos técnicos)
 
 **Saída esperada:** Aprovação de viabilidade + timeline realista
 

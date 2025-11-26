@@ -1,49 +1,45 @@
-# Roadmap Executivo 2026
+# Roadmap Executivo 2025-2026
 
 **Visão macro do projeto Portal Administrativo**
 
-Status: Em Planejamento | Última atualização: November 12, 2025
+Status: Em Retomada | Última atualização: November 24, 2025
 
 ---
 
 ## 📅 Timeline Geral
 
 ```
-Q4 2024 (AGO-OUT)          → Planejamento & Arquitetura
-├─ Setup técnico
-├─ Definições UX
-└─ Estrutura Jira
+Q4 2025 (NOV-DEZ)          → Retomada & Fundação (Fase 0)
+├─ Setup Infra (Homologação)
+├─ Ideação UX & Telas
+├─ Atualização Arquitetura
+└─ Estrutura Jira & Backlog
 
-Q4 2024 (NOV-DEZ)          → Sprint 1-2: Fundação
-├─ Multi-tenant implementation
-├─ Componentes compartilhados
-└─ Setup infraestrutura
-
-Q1 2025 (JAN-MAR)          → Sprint 3-6: Diploma Digital (Unigrande)
+Q1 2026 (JAN-MAR)          → Sprint 1-4: Diploma Digital (Unigrande)
 ├─ Backend (validação, XML, assinatura)
 ├─ Frontend (formulário, visualização)
 ├─ Integração com Prefeitura (SP)
 └─ Testes & QA
 
-Q2 2025 (ABR-JUN)          → Sprint 7-10: Outros Módulos Unigrande
+Q2 2026 (ABR-JUN)          → Sprint 5-8: Outros Módulos Unigrande
 ├─ Módulo Acadêmico
 ├─ Módulo Financeiro
 ├─ Módulo Administrativo
 └─ Testes & Deploy Staging
 
-Q3 2025 (JUL-SET)          → Validação & Ajustes
+Q3 2026 (JUL-SET)          → Validação & Ajustes
 ├─ Testes em Produção (Unigrande)
 ├─ Ajustes pós-feedback
 ├─ Documentação final
 └─ Preparar para AVP
 
-Q4 2025 (OUT-DEZ)          → Planejamento AVP & Debt
+Q4 2026 (OUT-DEZ)          → Planejamento AVP & Debt
 ├─ Análise funcionalidades AVP
 ├─ Planejamento Sprint AVP
 ├─ Refatoração técnica
 └─ Otimizações
 
-2026 (JAN+)                → Implementação AVP
+2027 (JAN+)                → Implementação AVP
 ├─ Sprint AVP (reutiliza Setup)
 ├─ Integração
 └─ Go-live AVP
@@ -53,30 +49,30 @@ Q4 2025 (OUT-DEZ)          → Planejamento AVP & Debt
 
 ## 🎯 Fases Principais
 
-### FASE 0: Setup (NOV-DEZ 2024) ⏳ ATUAL
+### FASE 0: Setup (NOV-DEZ 2025) ⏳ ATUAL
 
-**Objetivo:** Estrutura técnica pronta para desenvolvimento
+**Objetivo:** Estrutura técnica pronta para desenvolvimento e ambiente de homologação validado
 
 **Tarefas Críticas:**
 
-- [ ] Validar decisões com PO/UX
-- [ ] Completar mapeamento de funcionalidades
+- [ ] Validar decisões com PO/UX (Retomada)
+- [ ] Consolidar telas da ideação UX
 - [ ] Criar projeto Jira (PA)
 - [ ] Setup ambiente dev (Docker, DB, etc)
-- [ ] CI/CD pipeline
+- [ ] CI/CD pipeline (Deploy em Homologação)
 - [ ] Banco de dados schema com empresa_id
 
 **Entregas:**
 
 *   Arquitetura multi-tenant documentada e validada
-*   Ambiente pronto para código
+*   Ambiente de Homologação com "Hello World"
 *   Sprints planejadas
 
-**Go/No-Go:** End of December
+**Go/No-Go:** End of December 2025
 
 ---
 
-### FASE 1: Diploma Digital Unigrande (JAN-MAR 2025)
+### FASE 1: Diploma Digital Unigrande (JAN-MAR 2026)
 
 **Objetivo:** Piloto funcional e deployado em produção
 
@@ -96,7 +92,7 @@ Q4 2025 (OUT-DEZ)          → Planejamento AVP & Debt
 *   Testes passando 100%
 *   Documentação técnica e de usuário
 
-**Go/No-Go:** End of March 2025
+**Go/No-Go:** End of March 2026
 
 ---
 
