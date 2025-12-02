@@ -1,111 +1,98 @@
-# Portal Administrativo - AVP/Unigrande
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+</p>
 
-## Visão Geral
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-Este repositório contém o código-fonte e a documentação técnica para o projeto do novo Portal Administrativo unificado para as empresas AVP e Unigrande. O objetivo é criar uma plataforma moderna, escalável e multi-tenant, que servirá como uma base ("rack") para diversos módulos de negócios.
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Estrutura do Repositório
+## Description
 
-- **/frontend**: Aplicação Next.js (React).
-  - Para iniciar: Vá para a pasta `/frontend` e execute `npm install`.
-- **/backend**: Aplicação NestJS (Node.js).
-  - Para iniciar: Vá para a pasta `/backend` e execute `npm install`.
-- **/docs**: Documentação do projeto.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Estrutura da Documentação
+## Project setup
 
-Toda a documentação do projeto está centralizada na pasta `/docs`. A estrutura foi reorganizada por domínios para facilitar a escalabilidade:
-
-- **/docs/management**: Documentação de Gestão e Produto.
-- **/docs/technical**: Documentação Técnica e Arquitetural.
-- **/docs/business-modules**: Documentação específica por Módulo de Negócio.
-- **/docs/legacy**: Arquivos de trabalho e versões antigas da documentação.
-
-## Arquitetura e Tecnologias
-
-A solução está sendo desenvolvida com uma arquitetura de micro-serviços e front-end desacoplado, utilizando as seguintes tecnologias:
-
-- **Frontend**: React 18 + Next.js 14.x (TypeScript)
-- **Backend**: Node.js + NestJS 10.x (TypeScript)
-- **Banco de Dados**: SQL Server (Infra Local / On-Premise)
-- **Autenticação**: Azure AD
-- **Armazenamento**: Azure Blob Storage
-
-Para mais detalhes, consulte o documento de [Arquitetura Core](docs/technical/architecture/CORE_ARCHITECTURE.md).
-
-## Como Começar
-
-### Configuração Inicial
-
-#### Backend (NestJS)
 ```bash
-cd backend
-npm install
-
-# Configure as variáveis de ambiente
-cp .env.example .env
-# Edite o arquivo .env com suas credenciais do SQL Server
-
-# Inicie o servidor de desenvolvimento
-npm run start:dev
+$ npm install
 ```
 
-O backend estará disponível em `http://localhost:3001`  
-Documentação da API (Swagger): `http://localhost:3001/api/docs`
+## Compile and run the project
 
-#### Frontend (Next.js)
 ```bash
-cd frontend
-npm install
+# development
+$ npm run start
 
-# Inicie o servidor de desenvolvimento
-npm run dev
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
 ```
 
-A aplicação estará disponível em `http://localhost:3001`
+## Run tests
 
-#### Storybook (Desenvolvimento de Componentes)
 ```bash
-cd frontend
-npm run storybook
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
 ```
 
-O Storybook estará disponível em `http://localhost:6006`
+## Deployment
 
-### Status da Implementação
+When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
 
-✅ **Fase 1:** Estrutura Inicial e Padrões (Concluída)  
-✅ **Fase 2:** Backend Core - API, Banco de Dados, Multi-tenancy (Concluída)  
-✅ **Fase 3:** Frontend Core - Storybook, Componentes, Temas (Concluída)  
-⏸️ **Fase 4:** Autenticação Azure AD (Aguardando Infraestrutura)
+If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
 
-Para detalhes completos da implementação, consulte:
-- [Documentação de Implementação - Fases 1 a 3](docs/technical/IMPLEMENTACAO_FASE_1_A_3.md)
+```bash
+$ npm install -g @nestjs/mau
+$ mau deploy
+```
 
-### Funcionalidades Implementadas
+With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
 
-**Backend:**
-- ✅ API REST com NestJS 10
-- ✅ Documentação automática com Swagger
-- ✅ Conexão TypeORM + SQL Server
-- ✅ Middleware Multi-tenant (validação via header `x-tenant-id`)
-- ✅ Suporte para empresas: AVP e Unigrande
+## Resources
 
-**Frontend:**
-- ✅ Next.js 14 com App Router
-- ✅ Sistema de temas dinâmico (AVP e Unigrande)
-- ✅ Biblioteca de componentes com Storybook
-- ✅ Atomic Design (Button, CompanySelector, etc.)
-- ✅ Tailwind CSS + CSS Variables
-- ✅ Persistência de tema em localStorage
+Check out a few resources that may come in handy when working with NestJS:
 
-1.  **Explore a Documentação**: Comece pelo [Roadmap Executivo](docs/management/ROADMAP_EXECUTIVO.md) para uma visão geral.
-2.  **Ambiente de Desenvolvimento**: Siga as instruções em [Padrões de Desenvolvimento](docs/technical/standards/DEVELOPMENT_STANDARDS.md) para configurar seu ambiente.
+- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
+- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
+- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
+- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
+- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
+- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
+- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
+- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
 
-## Contato
+## Support
 
-- **Product Owner**: Gerson
-- **Tech Lead**: Rayan
-- **UX**: Bianca
-- **Front-End**: Pedro Henrique
-- **Back-End**: Guilherme / Pedro Soeiro
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
